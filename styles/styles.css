@@ -77,7 +77,7 @@ list-style-type: none;
   text-align: center;
 }
 
-.advantages-image {
+.advantages-image, .product-card-image, .htmlacademy-logo-image, .logo-image {
   display: block;
 }
 
@@ -263,10 +263,6 @@ list-style-type: none;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-}
-
-.product-card-image {
-  display: block;
 }
 
 .product-card-title {
