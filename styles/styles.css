@@ -81,26 +81,17 @@ list-style-type: none;
   display: block;
 }
 
-.advantages-title-white-text {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  background: #82B3D3;
-}
-
-.advantages-description-white {
-  color: #FFFFFF;
-  background: #82B3D3;
-}
-
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.advantages-item:nth-child(1)>h3, .advantages-item:nth-child(5)>h3, .advantages-item:nth-child(1), .advantages-item:nth-child(5) {
+  color: #FFFFFF;
+  background-color: #82B3D3;
 }
 
 .hotel-search-title {
