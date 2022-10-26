@@ -9,7 +9,7 @@
     <!-- header -->
     <header class="page-header">
       <a class="logo" href="#">
-        <img src="images/icons/logos/logo.svg" width="140" height="70" alt="">
+        <img class="logo-image" src="images/icons/logos/logo.svg" width="140" height="70" alt="логотип Седоны">
       </a>
       <!-- navigation -->
       <nav class="navigation">
@@ -44,7 +44,7 @@
             <span class="header-favorites">12</span>
           </li>
           <li class="navigation-item">
-            <a class="navigation-user-button" href="#">Хочу сюда!</a>
+            <a class="button navigation-user-button" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -62,9 +62,9 @@
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
           <li class="advantages-item">
-            <h3 class="advantages-title-white">Настоящий городок</h3>
-            <p class="advantages-description-white-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="images/pictures/advantages-town.jpg" width="800" height="384" alt="Двухэтажные домики в стиле дикого запада.">
+            <h3 class="advantages-title">Настоящий городок</h3>
+            <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <img class="advantages-image" src="images/pictures/advantages-town.jpg" width="800" height="384" alt="Двухэтажные домики в стиле дикого запада.">
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Небольшая площадь</h3>
@@ -79,21 +79,21 @@
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="advantages-item">
-            <img src="images/pictures/advantages-bridge.jpg" width="800" height="384" alt="Мост дьявола: узкий проход к обрывистой скале на фоне гор.">
-            <h3 class="advantages-title-white-text">Там есть мост дьявола</h3>
-            <p class="advantages-description-white">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <img class="advantages-image" src="images/pictures/advantages-bridge.jpg" width="800" height="384" alt="Мост дьявола: узкий проход к обрывистой скале на фоне гор.">
+            <h3 class="advantages-title">Там есть мост дьявола</h3>
+            <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
           </ul>
-          <ul class="advantages-list">
-          <li class="advantages-item">
+          <ul class="advantages-list-icon">
+          <li class="advantages-item-icon">
             <h3 class="advantages-title">Жильё</h3>
             <p class="advantages-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item-icon">
             <h3 class="advantages-title">Еда</h3>
             <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item-icon">
             <h3 class="advantages-title">Сувениры</h3>
             <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
@@ -111,14 +111,14 @@
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
-          <label class="visually-hidden" for="subscribe-email">Ввести электронную почту</label>
+          <label class="visually-hidden" for="subscribe-email">Введите электронную почту</label>
           <input class="subscribe-input" type="email" name="subscribe-email" id="subscribe-email" placeholder="Ваш e-mail" required>
-          <button class="subscribe-button" type="submit">Подписаться</button>
+          <button class="button subscribe-button" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
     <!-- footer -->
-    <footer>
+    <footer class="page-footer">
       <section class="social">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="social-list">
@@ -139,8 +139,11 @@
           </li>
         </ul>
       </section>
+      <address class="footer-adress">
       <a class="tel-link" href="tel:+78121212">+7 (812) 812-12-12</a>
+    </address>
       <a href="https://htmlacademy.ru/">
+        <img class="htmlacademy-logo-image" src="images/icons/logos/logo-htmlacademy.svg" width="115" height="34" alt="логотип html академии">
       </a>
     </footer>
   </body>
