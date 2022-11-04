@@ -96,18 +96,14 @@ list-style-type: none;
   flex-grow: 1;
 }
 
-.main-index {
-  background-color: #FFFFFF;
-  background-image: url("../images/pictures/index-hero.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-
 .hero {
   width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background-image: url("../images/pictures/index-hero.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   margin: 0 auto;
   text-align: center;
 }
