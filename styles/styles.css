@@ -57,7 +57,7 @@ list-style-type: none;
   width: 990px;
 }
 
-.logo {
+.logo-navigation {
   margin-left: 70px;
 }
 
@@ -149,7 +149,6 @@ list-style-type: none;
   display: flex;
   flex-direction: row;
   width: 1200px;
-  height: 384px;
   align-items: center;
 }
 
@@ -380,7 +379,7 @@ list-style-type: none;
 
 .product-list {
 display: flex;
-justify-content: space-evenly;
+justify-content: flex-start;
 width: 1060px;
 margin: 0 auto;
 flex-wrap: wrap;
