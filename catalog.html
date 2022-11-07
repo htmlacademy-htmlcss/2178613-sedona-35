@@ -99,28 +99,40 @@
           <fieldset class="catalog-filter-price">
             <legend class="catalog-filter-title">Стоимость, ₽:</legend>
           </fieldset>
-          <button class="form-button-submit" type="submit">Применить</button>
-          <button class="form-button-reset" type="reset">Сбросить</button>
+          <div class="catalog-filter-form-buttons">
+            <button class="button form-button-submit" type="submit">Применить</button>
+            <button class="button form-button-reset" type="reset">Сбросить</button>
+          </div>
         </form>
       </div>
       <!-- catalog-product -->
       <section class="catalog-product">
-        <h2 class="visually-hidden">Результаты поиска.</h2>
-        <p class="catalog-product-found">Найдено гостиниц:<span class="catalog-product-found-amount"> 38</span></p>
-        <select class="select-sorting" name="select-sorting" aria-label="Сортировка">
-          <option class="option-sorting" value="cheap">Сначала дешевые</option>
-          <option class="option-sorting" value="popular">Сначала поаулярные</option>
-          <option class="option-sorting" value="expencive">Сначала дорогие</option>
-        </select>
-        <a class="button">
-          <span class="visually-hidden">Показать карточки</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать слайдер</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать список</span>
-        </a>
+        <div class="product-sorting">
+          <h2 class="visually-hidden">Результаты поиска.</h2>
+          <p class="catalog-product-found">Найдено гостиниц:<span class="catalog-product-found-amount"> 38</span></p>
+          <select class="select-sorting" name="select-sorting" aria-label="Сортировка">
+            <option class="option-sorting" value="cheap">Сначала дешевые</option>
+            <option class="option-sorting" value="popular">Сначала поаулярные</option>
+            <option class="option-sorting" value="expencive">Сначала дорогие</option>
+          </select>
+          <ul class="product-card-apportionment">
+            <li>
+              <a class="product-card-apportionment-button">
+                <span class="visually-hidden">Показать карточки</span>
+              </a>
+            </li>
+            <li>
+              <a class="product-card-apportionment-button" href="#">
+                <span class="visually-hidden">Показать слайдер</span>
+              </a>
+            </li>
+            <li>
+              <a class="product-card-apportionment-button" href="#">
+                <span class="visually-hidden">Показать список</span>
+              </a>
+            </li>
+          </ul>
+        </div>
         <!-- product-cards -->
         <ul class="product-list">
           <li class="product-card">
@@ -140,7 +152,7 @@
             <p class="product-card-descriptioin">Гостиница</p>
             <b class="product-card-price">От 5000 ₽</b>
             <a class="button product-card-link" href="#">подробнее</a>
-            <button class="product-card-button product-card-favorite-button">в избранном</button>
+            <button class="button product-card-favorite-button">в избранном</button>
             <p class="product-card-rate">Рейтинг: 9,2</p>
           </li>
           <li class="product-card">
@@ -177,6 +189,9 @@
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">4</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-current" href="#">...</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
